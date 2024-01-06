@@ -1,23 +1,23 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
+import NavBar from './components/NavBar';
 import Home from './components/pages/Home';
-import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
+
+// Must be top-level component and render all necessary child components.
 
 function App() {
   return (
 
     <Router>
 
-      <Header />
+      <NavBar />
 
       <Routes>
 
         // Set the different paths to be rendered with Home as the default.
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
 
