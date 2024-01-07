@@ -3,7 +3,8 @@
 // Must render the title, link to deployed app, link to GitHub repo, GIF or screenshot of the deployed application
 
 import React from "react";
-import "public/style.css";
+import "src/projects.json";
+// import ".public/style.css";
 
 function Project(props) {
     return (
