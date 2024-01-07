@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import Home from './components/pages/Home';
-import Projects from './components/pages/Projects';
-import Contact from './components/pages/Contact';
+import Header from './Header.jsx';
+import Home from './pages/Home.jsx';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 // Must be top-level component and render all necessary child components.
 
@@ -12,7 +12,7 @@ function App() {
 
     <Router>
 
-      <NavBar />
+      <Header />
 
       <Routes>
 

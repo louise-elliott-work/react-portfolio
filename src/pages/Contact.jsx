@@ -1,7 +1,8 @@
 // Must include email address, CV PDF, GitHub profile link, LinkedIn link, a contact form for handling events
 // Set up links and check functionality
 
-import React from 'react';
+import React from "react";
+// import "../public/style.css";
 
 function Contact() {
     return (
