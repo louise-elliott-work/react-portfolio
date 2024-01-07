@@ -4,26 +4,26 @@
 
 import React from "react";
 
-function Project(props) {
+function ProjectGallery(props) {
     console.log(props);
     return (
-        <div className="project-card">
-            
+        <div>
             {props.projects.map(project => (
                 <li className="list-group-item" key={project.id}>
-                        <div className="content">
-                            <ul>
+                    <div className="card" style={{ width: '100rem' }}>
+                        <div className="card-body">
+                            <ul className="class-text">
                                 <h4>{project.title}</h4>
-                                <img alt={project.title} src={project.media} />
+                                <img className="card-img-top" alt={project.title} src={project.media} />
                                 <li>{project.app}</li>
                                 <li>{project.github}</li>
                             </ul>
                         </div>
+                    </div>
                 </li>
             ))}
-
         </div>
     );
 }
 
-export default Project;
+export default ProjectGallery;

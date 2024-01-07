@@ -4,12 +4,12 @@
 
 import React from "react";
 import projects from "../projects.json";
-import Project from "./Project.jsx";
+import ProjectGallery from "./ProjectGallery.jsx";
 
 console.log(projects);
 
 function AccessProjects() {
-    return <Project projects={projects} />
+    return <ProjectGallery projects={projects} />
 }
 
 export default AccessProjects;
