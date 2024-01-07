@@ -2,6 +2,7 @@
 // Set up links and check functionality
 
 import React from "react";
+import ContactForm from "./ContactForm";
 // import "../public/style.css";
 
 function Contact() {
@@ -12,7 +13,7 @@ function Contact() {
             <p>CV PDF here</p>
             <p>GitHub profile link here #https://github.com/louise-elliott-work</p>
             <p>LinkedIn link here #www.linkedin.com/in/louise-elliott-work</p>
-            <p>contact form for handling events here</p>
+            <ContactForm />
         </div>
     )
 }

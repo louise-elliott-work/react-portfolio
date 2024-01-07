@@ -14,7 +14,7 @@ function ProjectGallery(props) {
                         <div className="card-body">
                             <ul className="class-text">
                                 <h4>{project.title}</h4>
-                                <img className="card-img-top" alt={project.title} src={project.media} />
+                                <img variant="top" alt={project.title} src={project.media} />
                                 <li>{project.app}</li>
                                 <li>{project.github}</li>
                             </ul>
