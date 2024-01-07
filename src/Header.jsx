@@ -1,14 +1,11 @@
-// Must be rendered across every page component of the site
-// Must contain a Navbar
-
 import React from "react";
 import NavBar from './NavBar';
-// import "public/style.css";
 
+// Header, containing NavBar, rendered across every page component of the site
 function Header() {
     return (
         <div>
-            // NavBar link here
+            <NavBar />
         </div>
     )
 };
