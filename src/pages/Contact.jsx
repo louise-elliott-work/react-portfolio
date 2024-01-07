@@ -3,17 +3,18 @@
 
 import React from "react";
 import ContactForm from "./ContactForm";
-// import "../public/style.css";
+import './Contact.css';
 
 function Contact() {
     return (
-        <div>
-            <h3>Contact</h3>
-            <p>email address here #louise.elliott.work@gmail.com</p>
-            <p>CV PDF here</p>
-            <p>GitHub profile link here #https://github.com/louise-elliott-work</p>
-            <p>LinkedIn link here #www.linkedin.com/in/louise-elliott-work</p>
-            <ContactForm />
+        <div className="contact-section">
+            <section className="contact-links">
+                <p>email: #louise.elliott.work@gmail.com</p>
+                <p>GitHub profile link here #https://github.com/louise-elliott-work</p>
+                <p>LinkedIn link here #www.linkedin.com/in/louise-elliott-work</p>
+            </section>
+            <section className="linked-documents">CV PDF here</section>
+            <section className="contact-form"><ContactForm /></section>
         </div>
     )
 }
