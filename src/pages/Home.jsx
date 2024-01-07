@@ -1,15 +1,20 @@
-// Home page that contains name, headshot, brand statement and indication that this is my portfolio site.
-
 import React from "react";
-// import ".public/style.css";
+import './Home.css';
 
+// Home page containing name, headshot, brand statement and indication that this is my portfolio site
 function About() {
     return (
-        <div>
-            <h1>Louise Elliott</h1>
-            <h2>Portfolio</h2>
-            <img src="/profile-photo.jpeg" alt="Headshot of Louise Elliott"></img>
-            <p>Front End Web Developer with a background in education and non-governmental organisations. Driven and always keen to learn and adapt. Effective at problem-solving, identifying areas for improvements and supporting colleagues with up-skilling and implementing change. Fluent in Spanish. Proficient in French. Known as a conscientious professional with a keen eye for detail and a passion for making a difference.</p>
+        <div className="about-section">
+            <section className="profile-text">Front End Web Developer with a background in education and non-governmental organisations.  Driven and always keen to learn and adapt.  Effective at problem-solving, identifying areas for improvements and supporting colleagues with up-skilling and implementing change.  Fluent in Spanish.  Proficient in French.  Known as a conscientious professional with a keen eye for detail and a passion for making a difference.</section>
+            <section className="profile-photo-container"><img className="profile-photo" src="/profile-photo-square.jpeg" alt="The circular image shows a photo of Louise Elliott"></img></section>
+            <section className="skills-container">
+                <li className="skill-item"> HTML </li>
+                <li className="skill-item"> CSS </li>
+                <li className="skill-item"> Bootstrap </li>
+                <li className="skill-item"> JavaScript </li>
+                <li className="skill-item"> ReactJS </li>
+                <li className="skill-item"> Node.js </li>
+            </section>
         </div>
     )
 }
