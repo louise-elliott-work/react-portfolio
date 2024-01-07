@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Header.jsx';
 import Home from './pages/Home.jsx';
+import ProjectGallery from './pages/ProjectGallery.jsx';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
@@ -18,8 +19,8 @@ function App() {
 
         // Set the different paths to be rendered with Home as the default.
         <Route path="home" element={<Home />} />
-        <Route path="/" element={<Projects />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="/" element={<Contact />} />
 
       </Routes>
 
