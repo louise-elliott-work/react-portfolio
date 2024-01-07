@@ -20,8 +20,6 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </Router>
-
-{/* onclick event listener for when user clicks buttons in navbar - this action updates the state of the components  */}
     </div>
   );
 }
