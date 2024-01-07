@@ -17,8 +17,8 @@ function App() {
       <Routes>
 
         // Set the different paths to be rendered with Home as the default.
-        <Route path="/" element={<Home />} />
-        <Route path="projects" element={<Projects />} />
+        <Route path="home" element={<Home />} />
+        <Route path="/" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
 
       </Routes>
