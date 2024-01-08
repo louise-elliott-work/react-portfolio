@@ -24,17 +24,26 @@
     padding: 10px;
 }
 
-.contact-links-container {
+.links-heading {
+    font-size: 1.8rem;
     padding: 30px;
+    color: #3C5556;
+    grid-row: 1/2;
+}
+
+.contact-links-container {
+    padding: 10px;
     font-size: 1.2rem;
     grid-column: 1/2;
     grid-row: 2/3;
-
 }
 
 .contact-form-heading {
     grid-column: 2/3;
     grid-row: 1/2;
+    color: #E09789;
+    font-size: 1.8rem;
+    padding: 20px;
 }
 
 .contact-form {
@@ -42,67 +51,15 @@
     grid-row: 2/3;
 }
 
-.contact-form-heading {
-    color: #E09789;
-    font-size: 1.8rem;
-    padding: 20px;
-}
-
-.links-heading {
-    font-size: 1.8rem;
-    padding: 30px;
-    color: #E09789;
-    grid-row: 1/2;
-}
-
-.email-button {
-    padding: 10px;
-    border-radius: 10px;
-    height: auto;
-    width: 100%;
-    justify-content: center;
-    background-color: #C8DBD7;
-    font-size: 1.3rem;
-    color: #3C5556;
-    display: flex;
-}
-
-.github-button {
-    padding: 10px;
-    border-radius: 10px;
-    height: auto;
-    width: 100%;
-    justify-content: center;
-    background-color: #C8DBD7;
-    font-size: 1.3rem;
-    color: #3C5556;
-    display: flex;
-}
-
-.linkedin-button {
-    padding: 10px;
-    border-radius: 10px;
-    height: auto;
-    width: 100%;
-    justify-content: center;
-    background-color: #C8DBD7;
-    font-size: 1.3rem;
-    color: #3C5556;
-    display: flex;
-}
-
-.cv-button {
-    padding: 10px;
-    border-radius: 10px;
-    height: auto;
-    width: 100%;
-    justify-content: center;
-    background-color: #C8DBD7;
-    font-size: 1.3rem;
-    color: #3C5556;
-    display: flex;
-}
-
 .button {
     margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #E09789;
+    height: auto;
+    width: 100%;
+    background-color: #F6EFE7;
+    font-size: 1.3rem;
+    color: #3C5556 !important;
+    text-align: start;
 }

@@ -1,34 +1,30 @@
-.contact-form {
-    font-size: 1.3rem;
-}
-
-.name {
-    background-color: #C8DBD7;
-    color: #3C5556;
-    width: 50%;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.email {
-    background-color: #C8DBD7;
-    color: #3C5556;
+.form-element {
+    margin: 10px 0px 10px 0px;
     width: 100%;
+    font-size: 1.3rem;
+    background-color: #C8DBD7;
+    color: #3C5556;
+    border-color: #3C5556;
+    box-sizing: border-box;
+}
+
+.form-element:focus {
+    outline: none;
+    border-color: #C8DBD7 !important;
 }
 
 .message {
-    background-color: #C8DBD7;
-    color: #3C5556;
-    width: 100%;
+    height: 100px;
 }
 
 .send-button {
-    width: 100%;
-    background-color: #3C5556;
-    color: #F6EFE7;
+    background-color: #3C5556 !important;
+    color: #F6EFE7 !important;
     border-radius: 10px;
 }
 
-.form-element {
-    margin: 10px 0px 10px 0px;
+.send-button:hover {
+    background-color: #C8DBD7 !important;
+    color: #3C5556 !important;
+    border-color: #3C5556;
 }
