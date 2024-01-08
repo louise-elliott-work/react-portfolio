@@ -51,37 +51,36 @@ function ContactForm() {
 
     return (
         <div className='contact-form-container'>
-            <strong className='contact-form-heading'>Contact form</strong>
             <form className="contact-form">
-                <input className='first-name'
+                <input className='form-element name'
                     value={formData.firstName}
                     name="firstName"
                     onChange={handleFormEntry}
                     type="text"
                     placeholder="First Name"
                 />
-                <input className='last-name'
+                <input className='form-element name'
                     value={formData.lastName}
                     name="lastName"
                     onChange={handleFormEntry}
                     type="text"
                     placeholder="Last Name"
                 />
-                <input className='email'
+                <input className='form-element email'
                     value={formData.email}
                     name="email"
                     onChange={handleFormEntry}
                     type="email"
                     placeholder="Email"
                 />
-                <input className='message'
+                <input className='form-element message'
                     value={formData.message}
                     name="message"
                     onChange={handleFormEntry}
                     type="message"
                     placeholder="Message"
                 />
-                <button className="send-button" onClick={handleFormSend}>Send</button>
+                <button className="form-element send-button" onClick={handleFormSend}>Send</button>
             </form>
         </div>
     );
