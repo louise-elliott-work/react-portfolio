@@ -1,24 +1,108 @@
+*/ Brand colors for consistency */
+:root {
+    --color-one: #F5D4C3;
+    --color-two: #E09789;
+    --color-three: #E9F1EF;
+    --color-four: #C8DBD7;
+    --color-five: #F6EFE7;
+    --color-six: #3C5556;
+}
+
+* {
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
 .contact-section {
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
     padding: 10px;
 }
 
-.contact-links {
-    padding: 20px;
+.contact-links-container {
+    padding: 30px;
     font-size: 1.2rem;
     grid-column: 1/2;
+    grid-row: 2/3;
+
 }
 
-.linked-documents {
-    padding: 20px;
-    font-size: 1.2rem;
+.contact-form-heading {
     grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .contact-form {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.contact-form-heading {
+    color: #E09789;
+    font-size: 1.8rem;
     padding: 20px;
-    font-size: 1.2rem;
-    grid-column: 3/5;
+}
+
+.links-heading {
+    font-size: 1.8rem;
+    padding: 30px;
+    color: #E09789;
+    grid-row: 1/2;
+}
+
+.email-button {
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: #C8DBD7;
+    font-size: 1.3rem;
+    color: #3C5556;
+    display: flex;
+}
+
+.github-button {
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: #C8DBD7;
+    font-size: 1.3rem;
+    color: #3C5556;
+    display: flex;
+}
+
+.linkedin-button {
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: #C8DBD7;
+    font-size: 1.3rem;
+    color: #3C5556;
+    display: flex;
+}
+
+.cv-button {
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: #C8DBD7;
+    font-size: 1.3rem;
+    color: #3C5556;
+    display: flex;
+}
+
+.button {
+    margin: 10px 0px 10px 0px;
 }
