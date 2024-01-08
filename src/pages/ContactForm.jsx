@@ -1,7 +1,7 @@
 // contact form for handling entry
 
 import React, { useState } from 'react';
-// import "../public/style.css";
+import './ContactForm.css';
 
 function ContactForm() {
     // set form data fields as empty
@@ -50,38 +50,38 @@ function ContactForm() {
     };
 
     return (
-        <div>
-            <strong>Contact form</strong>
-            <form className="form">
-                <input
+        <div className='contact-form-container'>
+            <strong className='contact-form-heading'>Contact form</strong>
+            <form className="contact-form">
+                <input className='first-name'
                     value={formData.firstName}
                     name="firstName"
                     onChange={handleFormEntry}
                     type="text"
                     placeholder="First Name"
                 />
-                <input
+                <input className='last-name'
                     value={formData.lastName}
                     name="lastName"
                     onChange={handleFormEntry}
                     type="text"
                     placeholder="Last Name"
                 />
-                <input
+                <input className='email'
                     value={formData.email}
                     name="email"
                     onChange={handleFormEntry}
                     type="email"
-                    placeholder="email"
+                    placeholder="Email"
                 />
-                <input
+                <input className='message'
                     value={formData.message}
                     name="message"
                     onChange={handleFormEntry}
                     type="message"
-                    placeholder="message"
+                    placeholder="Message"
                 />
-                <button onClick={handleFormSend}>Send</button>
+                <button className="send-button" onClick={handleFormSend}>Send</button>
             </form>
         </div>
     );
