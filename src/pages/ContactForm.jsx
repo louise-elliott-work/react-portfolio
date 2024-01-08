@@ -15,10 +15,6 @@ function ContactForm() {
         let value = e.target.value;
         const name = e.target.name;
 
-    // control length of message entered
-    if (name === 'message') {
-        value = value.substring(25, 200);
-    }
     // update the state
         setFormData({
             ...formData,
@@ -26,9 +22,9 @@ function ContactForm() {
         });
     };
 
-    const handleFormSend = (e) => {
+    const handleFormSend = (event) => {
         // Prevent page from refreshing.
-        e.preDefault();
+        event.preDefault();
         // Check all fields have been completed.
         if (!formData.name || !formData.email || !formData.message) {
             alert('Please fill in all fields on the form');
@@ -46,6 +42,7 @@ function ContactForm() {
 
     return (
         <div className='contact-form-container'>
+            <strong className='contact-form-heading'>Contact form</strong>
             <form className="contact-form">
                 <input className='form-element name'
                     value={formData.name}

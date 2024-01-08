@@ -11,7 +11,7 @@ console.log(projects);
 
 function AccessProjects() {
     return (
-
+        
         <div>
         <ProjectGallery projects={projects} />
 
@@ -19,7 +19,7 @@ function AccessProjects() {
 
         <ul className="nav nav-tabs">
 
-            {/* <li className="nav-item">
+            <li className="nav-item">
                 <ProjectSelection
                     to="/"
                     end
@@ -89,7 +89,7 @@ function AccessProjects() {
                 >
                 Project 6
                 </ProjectSelection>
-            </li> */}
+            </li>
 
         </ul>
 

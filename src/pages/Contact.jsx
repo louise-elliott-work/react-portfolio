@@ -6,9 +6,9 @@ import './Contact.css';
 // Contact section including email address, GitHub profile link, LinkedIn link, PDF CV file, and contact form.
 function Contact() {
     return (
-        <div className="contact-section">
-            <strong className='links-heading'>Links</strong>
+        <div className="contact-grid">
             <section className="contact-links-container">
+                <strong className='links-heading'>Links</strong>
                 <button className='button email-button'>
                     <span>Email</span>
                     <Link to="mailto:louise.elliott.work@gmail.com" target="_blank">louise.elliott.work@gmail.com</Link
@@ -26,8 +26,9 @@ function Contact() {
                     <Link to="..." className='cv-button' target="_blank">Click here to open the PDF</Link>
                 </button>
             </section>
-            <strong className='contact-form-heading'>Contact form</strong>
-            <section className="contact-form"><ContactForm /></section>
+            <section className="contact-form-container">
+                <section className="contact-form"><ContactForm /></section>
+            </section>
         </div>
     )
 }

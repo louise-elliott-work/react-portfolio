@@ -16,46 +16,37 @@
     justify-content: center;
 }
 
-.contact-section {
+.contact-grid {
     display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 4fr;
-    padding: 10px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
 }
 
-.links-heading {
-    font-size: 1.8rem;
-    padding: 30px;
-    color: #3C5556;
+.contact-form-container {
+    grid-column: 1/2;
     grid-row: 1/2;
 }
 
 .contact-links-container {
-    padding: 10px;
-    font-size: 1.2rem;
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-.contact-form-heading {
     grid-column: 2/3;
     grid-row: 1/2;
-    color: #E09789;
-    font-size: 1.8rem;
-    padding: 20px;
+    height: 22rem;
+    padding: 10px;
+    background-color: #F6EFE7;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #E09789;
 }
 
-.contact-form {
-    grid-column: 2/3;
-    grid-row: 2/3;
+.links-heading {
+    font-size: 1.8rem;
+    padding: 20px;
+    color: #3C5556;
 }
 
 .button {
-    margin: 10px 0px 10px 0px;
     padding: 10px;
-    border-radius: 10px;
-    border-color: #E09789;
+    margin: 10px 0px 10px 0px;
     height: auto;
     width: 100%;
     background-color: #F6EFE7;
