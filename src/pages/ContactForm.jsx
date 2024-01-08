@@ -37,12 +37,12 @@ function ContactForm() {
             email: '',
             message: '',
         });
-        <p>Thank for your message, {formData.name} - I'll be in touch!</p>
+        <p>Thank for your message, {formData.name} - I'll get back to you shortly!</p>
     };
 
     return (
         <div className='contact-form-container'>
-            <strong className='contact-form-heading'>Contact form</strong>
+            <strong className='contact-form-heading'>Get in touch!</strong>
             <form className="contact-form">
                 <input className='form-element name'
                     value={formData.name}

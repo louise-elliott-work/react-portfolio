@@ -15,7 +15,7 @@ function NavBar() {
                     isActive ? 'nav-link active' : 'nav-link'
                     }
                 >
-                Home
+                About
                 </NavLink>
             </li>
 

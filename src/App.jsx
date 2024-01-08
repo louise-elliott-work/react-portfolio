@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Header.jsx';
-import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
 import ProjectGallery from './pages/ProjectGallery.jsx';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Routes>
           {/* Different paths set to be rendered, with Home set as the default */}
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
         </Routes>

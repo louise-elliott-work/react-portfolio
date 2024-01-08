@@ -1,0 +1,12 @@
+.header-bar {
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+
+.heading {
+    grid-column: 1/2;
+}
