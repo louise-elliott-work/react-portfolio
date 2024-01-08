@@ -1,0 +1,7 @@
+.project-nav-links {
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}

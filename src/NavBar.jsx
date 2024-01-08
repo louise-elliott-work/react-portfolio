@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-// import "public/style.css";
+import './NavBar.css';
+import projects from './projects.json';
 
 function NavBar() {
     return (
@@ -14,7 +15,7 @@ function NavBar() {
                     isActive ? 'nav-link active' : 'nav-link'
                     }
                 >
-                Home
+                About
                 </NavLink>
             </li>
 
@@ -27,6 +28,78 @@ function NavBar() {
             >
                 Projects
             </NavLink>
+
+                {/* collapsible sub-menu for projects */}
+                <div className='project-nav-links'>
+
+                    <li className="project-nav-item">
+                        <NavLink
+                            to="projects"
+                            className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+
+                            project one
+                        </NavLink>
+                    </li>
+
+                    <li className="project-nav-item">
+                        <NavLink
+                            to="projects"
+                            className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                            project two
+                        </NavLink>
+                    </li>
+
+                    <li className="project-nav-item">
+                        <NavLink
+                            to="projects"
+                            className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                            project three
+                        </NavLink>
+                    </li>
+
+                    <li className="project-nav-item">
+                        <NavLink
+                            to="projects"
+                            className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                            project four
+                        </NavLink>
+                    </li>
+                    
+                    <li className="project-nav-item">
+                        <NavLink
+                            to="projects"
+                            className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                            project five
+                        </NavLink>
+                    </li>
+
+                    <li className="project-nav-item">
+                        <NavLink
+                            to="projects"
+                            className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                            project six
+                        </NavLink>
+                    </li>
+
+                </div>
             </li>
 
             <li className="nav-item">
