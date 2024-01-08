@@ -6,8 +6,7 @@ import './ContactForm.css';
 function ContactForm() {
     // set form data fields as empty
     const [formData, setFormData] = useState({
-        firstName: '',
-        lastName: '',
+        name: '',
         email: '',
         message: '',
     });
@@ -28,43 +27,32 @@ function ContactForm() {
     };
 
     const handleFormSend = (e) => {
-      // prevent the page from refreshing
+        // Prevent page from refreshing.
         e.preDefault();
-        if (!formData.firstName || !formData.lastName) {
-            alert('Fill out your first and last name please!');
-        } else if (formData.message.length < 6) {
-            alert(
-                `Choose a more secure message ${formData.firstName} ${formData.lastName}`
-            );
-            } else {
-            alert(`Hello ${formData.firstName} ${formData.lastName}`);
-            }
+        // Check all fields have been completed.
+        if (!formData.name || !formData.email || !formData.message) {
+            alert('Please fill in all fields on the form');
+        } else {
+            setFormData();
+        }
 
         setFormData({
-            firstName: '',
-            lastName: '',
+            name: '',
             email: '',
             message: '',
         });
-        <p>Thank for your message, {formData.firstName} {formData.lastName} - I'll be in touch!</p>
+        <p>Thank for your message, {formData.name} - I'll be in touch!</p>
     };
 
     return (
         <div className='contact-form-container'>
             <form className="contact-form">
                 <input className='form-element name'
-                    value={formData.firstName}
-                    name="firstName"
+                    value={formData.name}
+                    name="name"
                     onChange={handleFormEntry}
                     type="text"
-                    placeholder="First Name"
-                />
-                <input className='form-element name'
-                    value={formData.lastName}
-                    name="lastName"
-                    onChange={handleFormEntry}
-                    type="text"
-                    placeholder="Last Name"
+                    placeholder="Name"
                 />
                 <input className='form-element email'
                     value={formData.email}
