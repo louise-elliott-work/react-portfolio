@@ -1,0 +1,57 @@
+*/ Brand colors for consistency */
+:root {
+    --color-one: #F5D4C3;
+    --color-two: #E09789;
+    --color-three: #E9F1EF;
+    --color-four: #C8DBD7;
+    --color-five: #F6EFE7;
+    --color-six: #3C5556;
+}
+
+* {
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    justify-content: center;
+}
+
+.contact-form-container {
+    justify-content: center;
+    color: #E09789;
+}
+
+.contact-form-heading {
+    font-size: 1.8rem;
+    padding: 20px;
+}
+
+.contact-form {
+    font-size: 1.3rem;
+}
+
+.first-name {
+    background-color: #C8DBD7;
+    width: 50%;
+}
+
+.last-name {
+    background-color: #C8DBD7;
+    width: 50%;
+}
+
+.email {
+    background-color: #C8DBD7;
+    width: 100%;
+}
+
+.message {
+    background-color: #C8DBD7;
+    width: 100%;
+}
+
+.send-button {
+    width: 100%;
+    background-color: #3C5556;
+    color: #F6EFE7;
+    border-radius: 10px;
+}
