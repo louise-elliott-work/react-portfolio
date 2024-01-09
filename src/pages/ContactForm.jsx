@@ -9,6 +9,7 @@ function ContactForm() {
         name: '',
         email: '',
         message: '',
+        confirmation: '',
     });
     // capture data entered onto form
     const handleFormEntry = (e) => {
@@ -24,20 +25,24 @@ function ContactForm() {
 
     const handleFormSend = (event) => {
         // Prevent page from refreshing.
-        event.preDefault();
+        event.preventDefault();
         // Check all fields have been completed.
         if (!formData.name || !formData.email || !formData.message) {
+            // TODO change this from an alert
             alert('Please fill in all fields on the form');
         } else {
             setFormData();
+            // TODO work out how best to capture form entries
         }
 
         setFormData({
             name: '',
             email: '',
             message: '',
+            // TODO set this to time out after 10 seconds
+            confirmation: 'Thank you for your message',
         });
-        <p>Thank for your message, {formData.name} - I'll get back to you shortly!</p>
+        
     };
 
     return (
@@ -65,7 +70,14 @@ function ContactForm() {
                     type="message"
                     placeholder="Message"
                 />
-                <button className="form-element send-button" onClick={handleFormSend}>Send</button>
+                <button className="form-element send-button"onClick={handleFormSend}>Send</button>
+                <textarea readOnly={true} className='confirmation'
+                    value={formData.confirmation}
+                    name="confirmation"
+                    onChange={handleFormSend}
+                    type="confirmation"
+                    placeholder=''
+                />
             </form>
         </div>
     );
