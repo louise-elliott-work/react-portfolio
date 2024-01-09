@@ -4,24 +4,23 @@
 
 import React from "react";
 import './ProjectGallery.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 function ProjectGallery(props) {
     console.log(props);
     return (
-        <div>
+        <Carousel>
             {props.projects.map(project => (
-                <li key={project.id}>
-                    <div className="project-card">
-                            <ul className="class-text">
-                                <h4 className="project-heading">{project.title}</h4>
-                                <img className="project-media" alt={project.title} src={project.media} />
-                                <li className="project-link">App: {project.app}</li>
-                                <li className="project-link">GitHub repo: {project.github}</li>
-                            </ul>
-                    </div>
-                </li>
+                <Carousel.Item key={project.id} className="project-card">
+                    <ul className="class-text">
+                        <Carousel.Caption className="project-heading">{project.title}</Carousel.Caption>
+                        <img className="project-media" alt={project.title} src={project.media} />
+                        <li className="project-link">App: {project.app}</li>
+                        <li className="project-link">GitHub repo: {project.github}</li>
+                    </ul>
+                </Carousel.Item>
             ))}
-        </div>
+        </Carousel>
     );
 }
 
