@@ -30,7 +30,7 @@ function NavBar() {
             </NavLink>
 
                 {/* collapsible sub-menu for projects */}
-                <div className='project-nav-links'>
+                {/* <div className='project-nav-links'>
 
                     <li className="project-nav-item">
                         <NavLink
@@ -99,7 +99,7 @@ function NavBar() {
                         </NavLink>
                     </li>
 
-                </div>
+                </div> */}
             </li>
 
             <li className="nav-item">

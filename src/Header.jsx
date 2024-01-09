@@ -6,7 +6,8 @@ import './Header.css';
 function Header() {
     return (
         <div className="header-bar">
-            <h1 className="heading">Louise Elliott - portfolio</h1>
+            <h1 className="heading">Louise Elliott</h1>
+            <h2>Front End Web Developer</h2>
             <NavBar />
         </div>
     )
