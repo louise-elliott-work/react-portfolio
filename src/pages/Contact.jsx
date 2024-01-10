@@ -9,7 +9,6 @@ function Contact() {
         <div className="contact-grid">
 
             <section className="contact-heading-section">
-                {/* add background image */}
                 <strong className="contact-heading">Contact</strong>
             </section>
 

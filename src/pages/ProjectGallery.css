@@ -1,15 +1,33 @@
 .project-card {
     width: 80rem;
+    height: 40rem;
+    padding: 20px;
 }
 
-.project-heading {
-    font-size: 1.8rem;
+.project-title {
+    font-size: 1.5rem;
+    list-style: none;
+    color: #3C5556 !important;
+    border-style: solid;
+    border-bottom: none;
+    background-color: #C8DBD7;
+    border-color: #E09789;
 }
 
 .project-media {
     width: 100%;
+    border-style: solid;
+    border-color: #E09789;
 }
+
 .project-link {
+    height: auto;
+    width: 100%;
     font-size: 1.3rem;
-    
+    color: #3C5556 !important;
+    text-align: center;
+    background-color: #F6EFE7;
+    border-style: none;
+    padding: 20px;
+    list-style: none;
 }

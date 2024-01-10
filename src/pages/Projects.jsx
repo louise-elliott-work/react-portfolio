@@ -5,12 +5,16 @@
 import React from "react";
 import ProjectGallery from "./ProjectGallery";
 import projects from "../projects.json";
+import "./Projects.css"
 
 console.log(projects);
 
 function AccessProjects() {
     return (
-        <div>
+        <div className="projects-grid">
+            <section className="project-heading-section">
+                <strong className="project-heading">Projects</strong>
+            </section>
             <ProjectGallery projects={projects} />
         </div>
     )
