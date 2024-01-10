@@ -36,5 +36,6 @@
 
 .confirmation {
     border-style: none;
-    width: auto;
+    width: 100%;
+    text-align: center;
 }

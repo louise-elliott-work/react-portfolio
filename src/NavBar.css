@@ -1,7 +1,33 @@
-.project-nav-links {
-    padding: 20px;
-    list-style: none;
-    display: flex;
+*/ Brand colors for consistency */
+:root {
+    --color-one: #F5D4C3;
+    --color-two: #E09789;
+    --color-three: #E9F1EF;
+    --color-four: #C8DBD7;
+    --color-five: #F6EFE7;
+    --color-six: #3C5556;
+}
+
+.nav-tabs {
+    width: 100%;
+    background-color: #3C5556;
     justify-content: space-between;
-    font-size: 1.3rem;
+    border-color: #C8DBD7 !important;
+}
+
+.nav-item {
+    background-color: #3C5556;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.nav-link {
+    color: #C8DBD7 !important;
+    border-color: #C8DBD7 !important;
+}
+
+.nav-link.active {
+    background-color: #3C5556 !important;
+    color: #E09789 !important;
+    border-color: #C8DBD7 !important;
 }

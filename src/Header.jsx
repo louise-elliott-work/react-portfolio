@@ -7,8 +7,8 @@ function Header() {
     return (
         <div className="header-bar">
             <h1 className="heading">Louise Elliott</h1>
-            <h2>Front End Web Developer</h2>
-            <NavBar />
+            <h2 className="subheading">Front End Web Developer</h2>
+            <section className="navbar"><NavBar /></section>
         </div>
     )
 };
