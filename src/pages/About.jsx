@@ -4,7 +4,7 @@ import './About.css';
 // Home page containing name, headshot, brand statement and indication that this is my portfolio site
 function About() {
     return (
-        <div className="about-section">
+        <div className="about-grid">
                 <section className="about-heading-section">
                 {/* add background image */}
                 <strong className="about-heading">About</strong>

@@ -4,41 +4,41 @@
         "title": "PupVenture",
         "app": "https://ibalan92.github.io/dog-friendly-locations/",
         "github": "https://github.com/ibalan92/dog-friendly-locations",
-        "media": "public/pupventure.png"
+        "media": "/pupventure.png"
     },
     {
         "id": 2,
         "title": "Team Profile Generator",
         "app": "n/a - command-line application",
         "github": "https://github.com/louise-elliott-work/team-profile-generator",
-        "media": "public/team-profile-generator-example-screenshot.png"
+        "media": "/team-profile-generator-example-screenshot.png"
     },
     {
         "id": 3,
         "title": "README Generator",
         "app": "n/a - command-line application",
         "github": "https://github.com/louise-elliott-work/readme-generator",
-        "media": "public/README-generator-video-demo.mov"
+        "media": "/README-generator-video-demo.mov"
     },
     {
         "id": 4,
         "title": "Weather Dashboard",
         "app": "https://louise-elliott-work.github.io/weather-dashboard",
         "github": "https://github.com/louise-elliott-work/weather-dashboard",
-        "media": "public/weather-dashboard.png"
+        "media": "/weather-dashboard.png"
     },
     {
         "id": 5,
         "title": "Work Day Scheduler",
         "app": "https://louise-elliott-work.github.io/work-day-scheduler",
         "github": "https://github.com/louise-elliott-work/work-day-scheduler",
-        "media": "public/work-day-scheduler.png"
+        "media": "/work-day-scheduler.png"
     },
     {
         "id": 6,
         "title": "Code Quiz",
         "app": "https://louise-elliott-work.github.io/code-quiz",
         "github": "https://github.com/louise-elliott-work/code-quiz",
-        "media": "public/code-quiz.png"
+        "media": "/code-quiz.png"
     }
 ]

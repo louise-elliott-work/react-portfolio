@@ -33,3 +33,8 @@
     color: #3C5556 !important;
     border-color: #3C5556;
 }
+
+.confirmation {
+    border-style: none;
+    width: auto;
+}

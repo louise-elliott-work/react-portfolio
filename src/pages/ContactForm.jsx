@@ -1,22 +1,21 @@
-// contact form for handling entry
-
 import React, { useState } from 'react';
 import './ContactForm.css';
 
+// Contact form with messages emailed
 function ContactForm() {
-    // set form data fields as empty
+    // Set form fields as empty
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         message: '',
         confirmation: '',
     });
-    // capture data entered onto form
+    // Capture data entered onto form
     const handleFormEntry = (e) => {
         let value = e.target.value;
         const name = e.target.name;
 
-    // update the state
+    // Update state of form fields
         setFormData({
             ...formData,
             [name]: value,
@@ -40,7 +39,7 @@ function ContactForm() {
             email: '',
             message: '',
             // TODO set this to time out after 10 seconds
-            confirmation: 'Thank you for your message',
+            confirmation: 'Message sent',
         });
         
     };
@@ -71,7 +70,7 @@ function ContactForm() {
                     placeholder="Message"
                 />
                 <button className="form-element send-button"onClick={handleFormSend}>Send</button>
-                <textarea readOnly={true} className='confirmation'
+                <input className='confirmation'
                     value={formData.confirmation}
                     name="confirmation"
                     onChange={handleFormSend}
