@@ -1,0 +1,33 @@
+*/ Brand colors for consistency */
+:root {
+    --color-one: #F5D4C3;
+    --color-two: #E09789;
+    --color-three: #E9F1EF;
+    --color-four: #C8DBD7;
+    --color-five: #F6EFE7;
+    --color-six: #3C5556;
+}
+
+.projects-grid {
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 7fr;
+    text-align: center;
+    padding: 30px 20px 60px 20px;
+}
+
+.project-heading-section {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.project-heading {
+    width: 10rem;
+    background-color: #3C5556;
+    border-bottom: solid 10px #F5D4C3;
+    color: #F6EFE7;
+    margin-bottom: 2px;
+    font-size: 2rem;
+}

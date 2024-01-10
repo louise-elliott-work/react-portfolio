@@ -39,7 +39,6 @@ function ContactForm() {
             name: '',
             email: '',
             message: '',
-            // TODO set this to time out after 10 seconds
             confirmation: 'Thank you for your message',
         });
         
