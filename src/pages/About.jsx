@@ -16,7 +16,10 @@ function About() {
             Driven and always keen to learn and adapt.  Effective at problem-solving, identifying areas for improvements and supporting colleagues with up-skilling and implementing change.
             <br></br>
             <br></br>
-            Fluent in Spanish.  Proficient in French.  Known as a conscientious professional with a keen eye for detail and a passion for making a difference.
+            Known as a conscientious professional with a keen eye for detail and a passion for making a difference.
+            <br></br>
+            <br></br>
+            Fluent in Spanish.  Proficient in French.
             <br></br>
             <br></br>
             Technical skills include:
