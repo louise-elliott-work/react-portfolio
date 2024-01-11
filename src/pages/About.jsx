@@ -5,21 +5,30 @@ import './About.css';
 function About() {
     return (
         <div className="about-grid">
-                <section className="about-heading-section">
-                {/* add background image */}
-                <strong className="about-heading">About</strong>
-            </section>
-            <section className="profile-text">Front End Web Developer with a background in education and non-governmental organisations.  Driven and always keen to learn and adapt.  Effective at problem-solving, identifying areas for improvements and supporting colleagues with up-skilling and implementing change.  Fluent in Spanish.  Proficient in French.  Known as a conscientious professional with a keen eye for detail and a passion for making a difference.</section>
-            <section className="profile-photo-container"><img className="profile-photo" src="/profile-photo-square.jpeg" alt="The circular image shows a photo of Louise Elliott"></img></section>
-            <section className="skills-container">
-                <strong>Skills:</strong>
+        <section className="about-heading-section">
+            <strong className="about-heading">About</strong>
+        </section>
+        <strong className="brand-statement">
+            <span className="professional-role">Front End Web Developer</span> with a background in education and non-governmental organisations.
+        </strong>
+        <div className="headshot-container"><img className="headshot" src="/profile-photo-square.jpeg" alt="The circular image shows a photo of Louise Elliott"></img></div>
+        <section className="profile-three">
+            Driven and always keen to learn and adapt.  Effective at problem-solving, identifying areas for improvements and supporting colleagues with up-skilling and implementing change.
+            <br></br>
+            <br></br>
+            Fluent in Spanish.  Proficient in French.  Known as a conscientious professional with a keen eye for detail and a passion for making a difference.
+            <br></br>
+            <br></br>
+            Technical skills include:
+            <ul>
                 <li className="skill-item"> HTML </li>
                 <li className="skill-item"> CSS </li>
                 <li className="skill-item"> Bootstrap </li>
                 <li className="skill-item"> JavaScript </li>
                 <li className="skill-item"> ReactJS </li>
                 <li className="skill-item"> Node.js </li>
-            </section>
+            </ul>
+        </section>        
         </div>
     )
 }
