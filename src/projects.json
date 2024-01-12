@@ -2,6 +2,7 @@
     {
         "id": 1,
         "title": "PupVenture",
+        "summary": "TBC",
         "app": "https://ibalan92.github.io/dog-friendly-locations/",
         "github": "https://github.com/ibalan92/dog-friendly-locations",
         "media": "/pupventure.png"
@@ -9,6 +10,7 @@
     {
         "id": 2,
         "title": "Team Profile Generator",
+        "summary": "TBC",
         "app": "n/a - command-line application",
         "github": "https://github.com/louise-elliott-work/team-profile-generator",
         "media": "/team-profile-generator-example-screenshot.png"
@@ -16,6 +18,7 @@
     {
         "id": 3,
         "title": "README Generator",
+        "summary": "TBC",
         "app": "n/a - command-line application",
         "github": "https://github.com/louise-elliott-work/readme-generator",
         "media": "/README-generator-video-demo.mov"
@@ -23,6 +26,7 @@
     {
         "id": 4,
         "title": "Weather Dashboard",
+        "summary": "TBC",
         "app": "https://louise-elliott-work.github.io/weather-dashboard",
         "github": "https://github.com/louise-elliott-work/weather-dashboard",
         "media": "/weather-dashboard.png"
@@ -30,6 +34,7 @@
     {
         "id": 5,
         "title": "Work Day Scheduler",
+        "summary": "TBC",
         "app": "https://louise-elliott-work.github.io/work-day-scheduler",
         "github": "https://github.com/louise-elliott-work/work-day-scheduler",
         "media": "/work-day-scheduler.png"
@@ -37,6 +42,7 @@
     {
         "id": 6,
         "title": "Code Quiz",
+        "summary": "TBC",
         "app": "https://louise-elliott-work.github.io/code-quiz",
         "github": "https://github.com/louise-elliott-work/code-quiz",
         "media": "/code-quiz.png"
