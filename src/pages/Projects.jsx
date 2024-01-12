@@ -11,9 +11,9 @@ console.log(projects);
 
 function AccessProjects() {
     return (
-        <div className="projects-grid">
+        <div className="page-grid projects-grid">
             <section className="project-heading-section">
-                <strong className="project-heading">Projects</strong>
+                <strong className="heading">Projects</strong>
             </section>
             <ProjectGallery projects={projects} />
         </div>

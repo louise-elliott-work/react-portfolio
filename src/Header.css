@@ -20,7 +20,7 @@
     padding: 10px;
 }
 
-.heading {
+.name {
     grid-column: 1/2;
     grid-row: 1/2;
     text-align: left;
@@ -28,7 +28,7 @@
     color: #F5D4C3;
 }
 
-.subheading {
+.role {
     grid-column: 1/2;
     grid-row: 2/3;
     text-align: left;
