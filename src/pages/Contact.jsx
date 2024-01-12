@@ -6,31 +6,31 @@ import './Contact.css';
 // Contact section including email address, GitHub profile link, LinkedIn link, PDF CV file, and contact form.
 function Contact() {
     return (
-        <div className="contact-grid">
+        <div className="page-grid contact-grid">
 
             <section className="contact-heading-section">
-                <strong className="contact-heading">Contact</strong>
+                <strong className="heading">Contact</strong>
             </section>
 
-            <button className='button linkedin-button'>
+            <button className='button linkedin-button text'>
                 <strong>LinkedIn</strong>
                 <br></br>
-                <Link to="https://linkedin.com/in/louise-elliott-work" className="link" target="_blank">www.linkedin.com/in/louise-elliott-work</Link>
+                <Link to="https://linkedin.com/in/louise-elliott-work" className="text" target="_blank">www.linkedin.com/in/louise-elliott-work</Link>
             </button>
-            <button className='button github-button'>
+            <button className='button github-button text'>
                 <strong>GitHub</strong>
                 <br></br>
-                <Link to="https://github.com/louise-elliott-work" className="link" target="_blank">www.github.com/louise-elliott-work</Link>
+                <Link to="https://github.com/louise-elliott-work" className="text" target="_blank">www.github.com/louise-elliott-work</Link>
             </button>
-            <button className='button cv-button'>
+            <button className='button cv-button text'>
                 <strong>CV</strong>
                 <br></br>
-                <Link to="..." className="link" target="_blank">Click here to open the PDF</Link>
+                <Link to="..." className="text" target="_blank">Click here to open the PDF</Link>
             </button>
-            <button className='button email-button'>
+            <button className='button email-button text'>
                 <strong>Email</strong>
                 <br></br>
-                <Link to="mailto:louise.elliott.work@gmail.com" className="link" target="_blank">louise.elliott.work@gmail.com</Link>
+                <Link to="mailto:louise.elliott.work@gmail.com" className="text" target="_blank">louise.elliott.work@gmail.com</Link>
             </button>
 
             <section className="contact-form-container">

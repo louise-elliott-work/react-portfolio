@@ -10,7 +10,6 @@
     display: grid;
     grid-template-columns: 50vmin 50vmin;
     grid-template-rows: 10vmin 30vmin 30vmin;
-    color: #3C5556;
 }
 
 .project-title {

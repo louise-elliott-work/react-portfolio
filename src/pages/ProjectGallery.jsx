@@ -13,9 +13,9 @@ function ProjectGallery(props) {
             {props.projects.map(project => (
                 <Carousel.Item key={project.id}>
                     <section className="project-card-grid">
-                        <p className="project-title">{project.title}</p>
+                        <p className="project-title text">{project.title}</p>
                         <div className="project-media-container"><img className="project-media" alt={project.title} src={project.media} /></div>
-                        <section className="project-detail">
+                        <section className="project-detail text">
                             <p>{project.summary}</p>
                             <p>Visit the app <Link to={project.app} target="_blank"><strong className="link">here</strong></Link></p>
                             <p>Visit the GitHub repo <Link to={project.github} target="_blank"><strong className="link">here</strong></Link></p>
