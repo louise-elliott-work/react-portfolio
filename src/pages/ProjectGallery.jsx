@@ -11,13 +11,15 @@ function ProjectGallery(props) {
     return (
         <Carousel className="project-carousel">
             {props.projects.map(project => (
-                <Carousel.Item key={project.id} className="project-card">
+                <Carousel.Item key={project.id}>
                     <section className="project-card-grid">
                         <p className="project-title">{project.title}</p>
                         <div className="project-media-container"><img className="project-media" alt={project.title} src={project.media} /></div>
-                        <p className="project-summary">{project.summary}</p>
-                        <Link className="app-link" to={project.app} target="_blank"><strong>App</strong><br></br></Link>
-                        <Link className="github-link" to={project.github} target="_blank"><strong>GitHub</strong><br></br></Link>   
+                        <section className="project-detail">
+                            <p>{project.summary}</p>
+                            <p>Visit the app <Link to={project.app} target="_blank"><strong className="link">here</strong></Link></p>
+                            <p>Visit the GitHub repo <Link to={project.github} target="_blank"><strong className="link">here</strong></Link></p>
+                        </section>
                     </section>
                 </Carousel.Item>
             ))}
