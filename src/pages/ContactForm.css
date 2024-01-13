@@ -9,7 +9,6 @@
     width: 100%;
     font-size: 1.3rem;
     background-color: #C8DBD7;
-    color: #3C5556;
     border-color: #3C5556;
     box-sizing: border-box;
 }
@@ -20,7 +19,7 @@
 }
 
 .message {
-    height: 100px;
+    height: 40vh;
 }
 
 .send-button {

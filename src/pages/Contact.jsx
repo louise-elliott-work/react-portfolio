@@ -8,7 +8,7 @@ function Contact() {
     return (
         <div className="page-grid contact-grid">
 
-            <section className="contact-heading-section">
+            <section className="heading-container">
                 <strong className="heading">Contact</strong>
             </section>
 

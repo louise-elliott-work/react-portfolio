@@ -1,7 +1,7 @@
-// contact form for handling entry
-
 import React, { useState } from 'react';
 import './ContactForm.css';
+
+// contact form for handling entry
 
 function ContactForm() {
     // set form data fields as empty
