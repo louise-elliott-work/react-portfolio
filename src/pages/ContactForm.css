@@ -1,26 +1,25 @@
 .contact-form-heading {
     color: #E09789;
     font-size: 1.8rem;
-    padding: 20px;
+    padding: 5vh;
 }
 
-.form-element {
-    margin: 10px 0px 10px 0px;
-    width: 100%;
-    font-size: 1.3rem;
+.form-field {
     background-color: #C8DBD7;
-    color: #3C5556;
     border-color: #3C5556;
     box-sizing: border-box;
+    font-size: 1.3rem;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
 }
 
-.form-element:focus {
+.form-field:focus {
     outline: none;
     border-color: #C8DBD7 !important;
 }
 
 .message {
-    height: 100px;
+    height: 40vh;
 }
 
 .send-button {
@@ -30,12 +29,13 @@
 
 .send-button:hover {
     background-color: #C8DBD7 !important;
-    color: #3C5556 !important;
     border-color: #3C5556;
+    color: #3C5556 !important;
 }
 
 .confirmation {
     border-style: none;
-    width: 100%;
+    resize: none;
     text-align: center;
+    width: 100%;
 }

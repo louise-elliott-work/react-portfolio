@@ -1,13 +1,3 @@
-*/ Brand colors for consistency */
-:root {
-    --color-one: #F5D4C3;
-    --color-two: #E09789;
-    --color-three: #E9F1EF;
-    --color-four: #C8DBD7;
-    --color-five: #F6EFE7;
-    --color-six: #3C5556;
-}
-
 .header-bar {
     display: grid;
     justify-content: space-around;
