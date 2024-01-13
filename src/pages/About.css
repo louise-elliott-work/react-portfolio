@@ -4,9 +4,9 @@
 }
 
 .brand-section {
+    font-size: 1.5rem;
     grid-column: 1/2;
     grid-row: 2/3;
-    font-size: 1.5rem;
     padding: 0vh 2vw 2vh 10vw;
 }
 

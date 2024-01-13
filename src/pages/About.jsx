@@ -23,7 +23,6 @@ function About() {
             <br></br>
             Technical skills include:
             <ul>
-                <li> <img src="public/js.svg" /> JavaScript </li>
                 <li> <img src="public/bootstrap.svg" /> Bootstrap </li>
                 <li> <img src="public/css3.svg" /> CSS3 </li>
                 <li> <img src="public/github.svg" /> GitHub </li>
