@@ -1,12 +1,12 @@
 .contact-form-heading {
-    color: #E09789;
+    color: var(--colorTwo);
     font-size: 1.8rem;
     padding: 5vh;
 }
 
 .form-field {
     background-color: #C8DBD7;
-    border-color: #3C5556;
+    border-color: var(--colorSix);
     box-sizing: border-box;
     font-size: 1.3rem;
     margin: 10px 0px 10px 0px;
@@ -15,7 +15,7 @@
 
 .form-field:focus {
     outline: none;
-    border-color: #C8DBD7 !important;
+    border-color: var(--colorFour) !important;
 }
 
 .message {
@@ -23,14 +23,14 @@
 }
 
 .send-button {
-    background-color: #3C5556 !important;
-    color: #F6EFE7 !important;
+    background-color: var(--colorSix) !important;
+    color: var(--colorFive) !important;
 }
 
 .send-button:hover {
-    background-color: #C8DBD7 !important;
-    border-color: #3C5556;
-    color: #3C5556 !important;
+    background-color: var(--colorFour) !important;
+    border-color: var(--colorSix);
+    color: var(--colorSix) !important;
 }
 
 .confirmation {
