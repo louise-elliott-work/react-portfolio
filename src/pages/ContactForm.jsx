@@ -34,14 +34,14 @@ function ContactForm() {
         <div className="contact-form-container">
             <strong className="contact-form-heading">Get in touch!</strong>
             <form className="contact-form" ref={form} onSubmit={sendEmail}>
-                <input className="form-field name"
+                <input className="form-field"
                     value={formData.name}
                     name="name"
                     onChange={handleFormEntry}
                     type="text"
                     placeholder="Name"
                 />
-                <input className="form-field email"
+                <input className="form-field"
                     value={formData.email}
                     name="email"
                     onChange={handleFormEntry}
