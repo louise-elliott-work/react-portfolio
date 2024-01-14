@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './Header.jsx';
-import About from './pages/About.jsx';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./Header.jsx";
+import About from "./pages/About.jsx";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
-{/* App is top-level component, render all necessary child components */}
+// Top-level component, rendering all child components, with About set as default home page.
 function App() {
   return (
     <div>

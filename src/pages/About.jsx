@@ -1,7 +1,7 @@
 import React from "react";
-import './About.css';
+import "./About.css";
 
-// Home page containing name, headshot, brand statement and indication that this is my portfolio site
+// Home page containing name, headshot and brand statement.
 function About() {
     return (
         <div className="page-grid about-grid">

@@ -17,13 +17,3 @@
     justify-content: space-between;
     width: 100%;
 }
-
-@media (max-width: 600px) {
-
-    .nav-tabs {
-        background-color: var(--colorSix);
-        justify-content: center;
-        width: 100%;
-    }
-
-}

@@ -1,8 +1,8 @@
 import React from "react";
-import NavBar from './NavBar';
-import './Header.css';
+import NavBar from "./NavBar";
+import "./Header.css";
 
-// Header, containing NavBar, rendered across every page component of the site
+// Header bar, containing navigation elements, rendered across every page of the site.
 function Header() {
     return (
         <div className="header-bar">

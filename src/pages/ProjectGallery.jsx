@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Carousel from 'react-bootstrap/Carousel';
-import './ProjectGallery.css';
+import Carousel from "react-bootstrap/Carousel";
+import "./ProjectGallery.css";
 
-// Must utilize Router props to properly render the right project based on user selection
-// Must render the title, link to deployed app, link to GitHub repo, GIF or screenshot of the deployed application
-
+// Carousel displaying projects stored in projects.json, with title, link to deployed app, link to GitHub repo and screenshot.
 function ProjectGallery(props) {
     return (
         <Carousel className="project-carousel">
