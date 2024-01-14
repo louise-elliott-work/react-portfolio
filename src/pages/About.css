@@ -11,7 +11,7 @@
 }
 
 .professional-role {
-    color: #E09789;
+    color: var(--colorTwo);
 }
 
 .headshot {

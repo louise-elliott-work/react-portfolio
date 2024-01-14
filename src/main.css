@@ -1,0 +1,43 @@
+/* Brand colors */
+:root {
+    --colorOne: #F5D4C3;
+    --colorTwo: #E09789;
+    --colorThree: #E9F1EF;
+    --colorFour: #C8DBD7;
+    --colorFive: #F6EFE7;
+    --colorSix: #3C5556;
+}
+
+/* Other styling for consistency across app */
+
+* {
+    justify-content: center;
+    background-color: var(--colorFive);
+    list-style: none;
+}
+
+.heading-container {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.heading {
+    background-color: var(--colorSix);
+    border-bottom: solid 10px var(--colorOne);
+    color: var(--colorFive);
+    font-size: 2rem;
+}
+
+.text {
+    font-size: 1.3rem;
+    color: var(--colorSix);
+}
+
+.page-grid {
+    display: grid;
+    padding: 5vh 10vw 5vh 10vw;
+}
+
+.button {
+    border-style: none;
+}
