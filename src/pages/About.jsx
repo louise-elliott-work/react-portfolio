@@ -23,14 +23,14 @@ function About() {
             <br></br>
             Technical skills include:
             <ul>
-                <li> <img src="public/bootstrap.svg" /> Bootstrap </li>
-                <li> <img src="public/css3.svg" /> CSS3 </li>
-                <li> <img src="public/github.svg" /> GitHub </li>
-                <li> <img src="public/html5.svg" /> HTML5 </li>
-                <li> <img src="public/js.svg" /> JavaScript </li>
-                <li> <img src="public/node-js.svg" /> Node </li>
-                <li> <img src="public/react.svg" /> React </li>
-                <li> <img src="public/terminal-solid.svg" /> Terminal </li>                
+                <li> <img src="/bootstrap.svg" /> Bootstrap </li>
+                <li> <img src="/css3.svg" /> CSS3 </li>
+                <li> <img src="/github.svg" /> GitHub </li>
+                <li> <img src="html5.svg" /> HTML5 </li>
+                <li> <img src="/js.svg" /> JavaScript </li>
+                <li> <img src="/node-js.svg" /> Node </li>
+                <li> <img src="/react.svg" /> React </li>
+                <li> <img src="/terminal-solid.svg" /> Terminal </li>                
             </ul>
         </section>        
         </div>
