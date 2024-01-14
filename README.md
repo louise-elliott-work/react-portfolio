@@ -6,7 +6,6 @@
 [Usage](#usage)<br>
 [License](#license)<br>
 [Contributions](#contributions)<br>
-[Testing](#testing)<br>
 ## Description
 This is an online portfolio that can be easily used in the future. It features an about page, with a brand statement, headshot and professional experience summary, a projects page, showing a carousel of key projects to date taken from a json file that can be added to as further projects are completed and a contact section complete with links to external sites and a contact form.
 Styling is consistent throughout and mobile-first design features include responsive elements throughout, with viewport width and height used to set properties, and REM used for font sizing.
