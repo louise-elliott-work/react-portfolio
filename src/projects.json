@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "PupVenture",
-        "summary": "The aim of this app is to provide a dog owner with a list of friendly locations i.e. parks, beaches etc, where they can take their pet. Simply, the user needs to input the date, their location in order to find these places. Additionally, they will also be able to see the weather forecast before they make their journey.",
+        "summary": " This app provides users with a list of dog-friendly destinations. The user inputs the date and a location and will see nearby destinations and the weather forecast for that date. Additionally, the user can save locations as favourites.",
         "app": "https://ibalan92.github.io/dog-friendly-locations/",
         "github": "https://github.com/ibalan92/dog-friendly-locations",
         "media": "/pupventure-screenshot.png"

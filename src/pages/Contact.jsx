@@ -25,7 +25,7 @@ function Contact() {
             <button className='button cv-button text'>
                 <strong>CV</strong>
                 <br></br>
-                <Link to="..." className="text" target="_blank">Click here to open the PDF</Link>
+                <Link to="../public/cv.pdf" className="text" target="_blank">Click here to open the PDF</Link>
             </button>
             <button className='button email-button text'>
                 <strong>Email</strong>
