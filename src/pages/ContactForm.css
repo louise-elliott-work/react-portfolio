@@ -1,3 +1,10 @@
+.confirmation {
+    border-style: none;
+    resize: none;
+    text-align: center;
+    width: 100%;
+}
+
 .contact-form-heading {
     color: var(--colorTwo);
     font-size: 1.8rem;
@@ -5,7 +12,7 @@
 }
 
 .form-field {
-    background-color: #C8DBD7;
+    background-color: var(--colorFour);
     border-color: var(--colorSix);
     box-sizing: border-box;
     font-size: 1.3rem;
@@ -14,8 +21,9 @@
 }
 
 .form-field:focus {
-    outline: none;
+    background-color: var(--colorFour);
     border-color: var(--colorFour) !important;
+    outline: none;
 }
 
 .message {
@@ -31,11 +39,4 @@
     background-color: var(--colorFour) !important;
     border-color: var(--colorSix);
     color: var(--colorSix) !important;
-}
-
-.confirmation {
-    border-style: none;
-    resize: none;
-    text-align: center;
-    width: 100%;
 }

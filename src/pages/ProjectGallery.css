@@ -1,9 +1,5 @@
-* {
-    text-decoration: none !important;
-}
-
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: #E09789;
+    background-color: var(--colorTwo);
 }
 
 .carousel-indicators {
@@ -23,8 +19,8 @@
 }
 
 .project-detail {
-    grid-row: 4/5;
     font-size: 1.3rem;
+    grid-row: 4/5;
     padding: 2vh 0vw;
     text-align: justify;
 }
@@ -34,16 +30,16 @@
 }
 
 .project-media {
-    max-width: 100%;
-    max-height: 100%;
+    border-color: var(--colorTwo);
     border-style: solid;
-    border-color: #E09789;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .project-title {
-    background-color: #C8DBD7;
+    background-color: var(--colorFour);
     border-bottom: solid;
-    border-color: #E09789;
+    border-color: var(--colorTwo);
     font-size: 1.5rem;
     grid-row: 2/3;
     text-align: center;
