@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './ContactForm.css';
 
 // contact form for handling entry
@@ -23,31 +24,26 @@ function ContactForm() {
         });
     };
 
-    const handleFormSend = (event) => {
+    const form = useRef();
+
+    const sendEmail = (event) => {
         // Prevent page from refreshing.
         event.preventDefault();
-        // Check all fields have been completed.
-        if (!formData.name || !formData.email || !formData.message) {
-            // TODO change this from an alert
-            alert('Please fill in all fields on the form');
-        } else {
-            setFormData();
-            // TODO work out how best to capture form entries
-        }
-
+        // Send email.
+        emailjs.sendForm('service_mu3hg2c', 'template_04eep6c', form.current, 'BE-dvmJowjVbkVB9p')
+        // Reset form and display confirmation message
         setFormData({
             name: '',
             email: '',
             message: '',
             confirmation: 'Thank you for your message',
         });
-        
     };
 
     return (
         <div className='contact-form-container'>
             <strong className='contact-form-heading'>Get in touch!</strong>
-            <form className="contact-form">
+            <form className="contact-form" ref={form} onSubmit={sendEmail}>
                 <input className='form-field name'
                     value={formData.name}
                     name="name"
@@ -69,11 +65,11 @@ function ContactForm() {
                     type="message"
                     placeholder="Message"
                 />
-                <button className="form-field send-button"onClick={handleFormSend}>Send</button>
+                <button className="form-field send-button"onClick={sendEmail}>Send</button>
                 <textarea readOnly={true} className='confirmation'
                     value={formData.confirmation}
                     name="confirmation"
-                    onChange={handleFormSend}
+                    onChange={sendEmail}
                     type="confirmation"
                     placeholder=''
                 />
