@@ -17,6 +17,13 @@
     text-align: left;
 }
 
+.navbar {
+    background-color: var(--colorSix);
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding: 0 2vw;
+}
+
 .role {
     background-color: var(--colorSix);
     color: var(--colorThree);
@@ -24,13 +31,6 @@
     grid-row: 2/3;
     padding: 0 2vw;
     text-align: left;
-}
-
-.navbar {
-    background-color: var(--colorSix);
-    grid-column: 2/3;
-    grid-row: 1/3;
-    padding: 0 2vw;
 }
 
 /* Settings for smaller screen sizes */

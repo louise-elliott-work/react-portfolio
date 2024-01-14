@@ -1,7 +1,8 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './NavBar.css';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./NavBar.css";
 
+// NavBar within header bar, rendering page selected by user.
 function NavBar() {
     return (
         <ul className="nav nav-tabs">
@@ -11,7 +12,7 @@ function NavBar() {
                     to="/"
                     end
                     className={({ isActive }) =>
-                    isActive ? 'nav-link active' : 'nav-link'
+                    isActive ? "nav-link active" : "nav-link"
                     }
                 >
                 About
@@ -22,7 +23,7 @@ function NavBar() {
                 <NavLink
                     to="projects"
                     className={({ isActive }) =>
-                    isActive ? 'nav-link active' : 'nav-link'
+                    isActive ? "nav-link active" : "nav-link"
                     }
                 >
                 Projects
@@ -34,7 +35,7 @@ function NavBar() {
                     to="contact"
                     end
                     className={({ isActive }) =>
-                    isActive ? 'nav-link active' : 'nav-link'
+                    isActive ? "nav-link active" : "nav-link"
                     }
                 >
                 Contact
