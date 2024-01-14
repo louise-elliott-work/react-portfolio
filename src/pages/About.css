@@ -10,14 +10,14 @@
     padding: 0vh 2vw 2vh 10vw;
 }
 
-.professional-role {
-    color: var(--colorTwo);
-}
-
 .headshot {
     border-radius: 5px;
     margin-top: 5vh;
     max-width: 100%;
+}
+
+.professional-role {
+    color: var(--colorTwo);
 }
 
 .professional-summary {

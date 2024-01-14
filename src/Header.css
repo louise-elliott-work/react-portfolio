@@ -1,33 +1,33 @@
 .header-bar {
-    display: grid;
-    justify-content: space-around;
     align-content: center;
+    background-color: var(--colorSix);
+    display: grid;
+    font-size: 2rem;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr;
-    text-align: center;
-    font-size: 2rem;
-    background-color: #3C5556;
+    justify-content: space-around;
     padding: 10px;
+    text-align: center;
 }
 
 .name {
+    background-color: var(--colorSix);
+    color: var(--colorOne);
     grid-column: 1/2;
     grid-row: 1/2;
     text-align: left;
-    background-color: #3C5556;
-    color: #F5D4C3;
 }
 
 .role {
+    background-color: var(--colorSix);
+    color: var(--colorThree);
     grid-column: 1/2;
     grid-row: 2/3;
     text-align: left;
-    background-color: #3C5556;
-    color: #E9F1EF;
 }
 
 .navbar {
+    background-color: var(--colorSix);
     grid-column: 2/3;
     grid-row: 1/3;
-    background-color: #3C5556;
 }

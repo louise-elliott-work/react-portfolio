@@ -11,14 +11,14 @@
 /* Other styling for consistency across app */
 
 * {
-    justify-content: center;
     background-color: var(--colorFive);
+    justify-content: center;
     list-style: none;
+    text-decoration: none !important;
 }
 
-.heading-container {
-    grid-column: 1/3;
-    text-align: center;
+.button {
+    border-style: none;
 }
 
 .heading {
@@ -28,9 +28,9 @@
     font-size: 2rem;
 }
 
-.text {
-    font-size: 1.3rem;
-    color: var(--colorSix);
+.heading-container {
+    grid-column: 1/3;
+    text-align: center;
 }
 
 .page-grid {
@@ -38,6 +38,7 @@
     padding: 5vh 10vw 5vh 10vw;
 }
 
-.button {
-    border-style: none;
+.text {
+    color: var(--colorSix);
+    font-size: 1.3rem;
 }

@@ -1,19 +1,19 @@
 .nav-item {
-    background-color: #3C5556;
+    background-color: var(--colorSix);
 }
 
 .nav-link {
     border-color: #C8DBD7;
-    color: #C8DBD7 !important;
+    color: var(--colorFour) !important;
 }
 
 .nav-link.active {
-    background-color: #3C5556 !important;
-    color: #E09789 !important;
+    background-color: var(--colorSix) !important;
+    color: var(--colorTwo) !important;
 }
 
 .nav-tabs {
-    background-color: #3C5556;
+    background-color: var(--colorSix);
     justify-content: space-between;
     width: 100%;
 }
