@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Team Profile Generator",
-        "summary": "This is a command-line application that generates a profile of software development team members based on user input. The user input is gathered using Inquirer and objects are created for each team member using the relevant classes.",
+        "summary": "This command-line application generates a profile of software development team members based on user input. The user input is gathered using Inquirer and objects are created for each team member using the relevant classes.",
         "app": "n/a - command-line application",
         "github": "https://github.com/louise-elliott-work/team-profile-generator",
         "media": "/team-profile-generator-screenshot.png"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "README Generator",
-        "summary": "This is a command-line application that generates a professional README file based on the user's input.",
+        "summary": "This command-line application generates a professional README file based on the user's input.",
         "app": "n/a - command-line application",
         "github": "https://github.com/louise-elliott-work/readme-generator",
         "media": "/README-generator-screenshot.png"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Weather Dashboard",
-        "summary": "The aim is to provide a weather dashboard that runs in the browser to display user-defined data retrieved from Open Weather Map (https://openweathermap.org/).  All dates are retrieved from day.js and displayed in a user-friendly format.  The names of cities searched are saved into local storage so that the data persists when the page is reloaded.  It has a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.  The project involved updating the HTML and CSS code and writing the JavaScript code to give the application its functionality, with attention paid to the use of day.js and the retrieval of data from a third-party API.",
+        "summary": "This weather dashboard runs in the browser to display user-defined data retrieved from Open Weather Map (https://openweathermap.org/) and day.js, displayed in a user-friendly format.  Local storage is used for favorites to persist when the page is reloaded.",
         "app": "https://louise-elliott-work.github.io/weather-dashboard",
         "github": "https://github.com/louise-elliott-work/weather-dashboard",
         "media": "/weather-dashboard-screenshot.png"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Work Day Scheduler",
-        "summary": "The aim is to provide a simple calendar application that allows a user to save events for each hour of the day.  The current day and date is taken from day.js and is displayed in a user-friendly format.  It has a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.  The project involved updating the HTML structure and writing the JavaScript code to give the application its functionality, with attention paid to use of day.js and styling for usability.",
+        "summary": "The aim is to provide a simple calendar application that allows a user to save events for each hour of the day.  The current day and date is taken from day.js and is displayed in a user-friendly format.",
         "app": "https://louise-elliott-work.github.io/work-day-scheduler",
         "github": "https://github.com/louise-elliott-work/work-day-scheduler",
         "media": "/work-day-scheduler-screenshot.png"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Code Quiz",
-        "summary": "The aim is to provide a multiple choice quiz on the topic of coding that runs in the browser.  It features HTML files for the questions element and scores element, along with a CSS file for styling. It is powered by JavaScript code to give its functionality, with additional files for the questions element and scores element.  It has a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.  The project involved updating the HTML structure and writing the JavaScript code to give the application its functionality, with attention paid to using functions effectively, position of variables and ease of future use.",
+        "summary": "The aim is to provide a multiple choice quiz on the topic of coding that runs in the browser.  It is powered by JavaScript code to give its functionality, with additional files for the questions element and scores element.",
         "app": "https://louise-elliott-work.github.io/code-quiz",
         "github": "https://github.com/louise-elliott-work/code-quiz",
         "media": "/code-quiz-screenshot.png"
