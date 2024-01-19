@@ -14,6 +14,7 @@
     background-color: var(--colorFive);
     justify-content: center;
     list-style: none;
+    overflow-wrap: break-word;
     text-decoration: none !important;
 }
 
@@ -41,4 +42,15 @@
 .text {
     color: var(--colorSix);
     font-size: 1.3rem;
+}
+
+
+@media (max-width: 1130px) {
+    .heading {
+        font-size: 1.4rem;
+    }
+    
+    .text {
+        font-size: 1rem;
+    }
 }
