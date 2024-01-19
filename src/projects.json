@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Weather Dashboard",
-        "summary": "This weather dashboard runs in the browser to display user-defined data retrieved from Open Weather Map (https://openweathermap.org/) and day.js, displayed in a user-friendly format.  Local storage is used for favorites to persist when the page is reloaded.",
+        "summary": "This weather dashboard runs in the browser to display user-defined data retrieved from Open Weather Map (https://openweathermap.org/) and day.js.  Local storage is used for favorites to persist when the page is reloaded.",
         "app": "https://louise-elliott-work.github.io/weather-dashboard",
         "github": "https://github.com/louise-elliott-work/weather-dashboard",
         "media": "/weather-dashboard-screenshot.png"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Work Day Scheduler",
-        "summary": "The aim is to provide a simple calendar application that allows a user to save events for each hour of the day.  The current day and date is taken from day.js and is displayed in a user-friendly format.",
+        "summary": "This calendar application allows a user to save events for each hour of the day.  The current day and date is taken from day.js and is displayed in a user-friendly format.",
         "app": "https://louise-elliott-work.github.io/work-day-scheduler",
         "github": "https://github.com/louise-elliott-work/work-day-scheduler",
         "media": "/work-day-scheduler-screenshot.png"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Code Quiz",
-        "summary": "The aim is to provide a multiple choice quiz on the topic of coding that runs in the browser.  It is powered by JavaScript code to give its functionality, with additional files for the questions element and scores element.",
+        "summary": "This app provides a multiple-choice quiz on the topic of coding that runs in the browser.  It is powered by JavaScript.",
         "app": "https://louise-elliott-work.github.io/code-quiz",
         "github": "https://github.com/louise-elliott-work/code-quiz",
         "media": "/code-quiz-screenshot.png"

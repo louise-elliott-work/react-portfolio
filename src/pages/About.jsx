@@ -21,15 +21,18 @@ function About() {
             Known as a conscientious professional with a keen eye for detail and a passion for making a difference.
             <br></br>
             <br></br>
-            Technical skills include:
+            Tools and technologies include:
             <ul>
                 <li> <img src="/bootstrap.svg" /> Bootstrap </li>
                 <li> <img src="/css3.svg" /> CSS3 </li>
+                <li> <img src="/figma.svg" /> Figma </li>   
                 <li> <img src="/github.svg" /> GitHub </li>
                 <li> <img src="html5.svg" /> HTML5 </li>
                 <li> <img src="/js.svg" /> JavaScript </li>
                 <li> <img src="/node-js.svg" /> Node </li>
                 <li> <img src="/react.svg" /> React </li>
+                <li> <img src="/slack.svg" /> Slack </li>   
+                <li> <img src="/tailwind-css.svg" /> Tailwind </li>
                 <li> <img src="/terminal-solid.svg" /> Terminal </li>                
             </ul>
         </section>        

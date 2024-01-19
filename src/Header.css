@@ -36,6 +36,10 @@
 /* Settings for smaller screen sizes */
 
 @media (max-width: 1130px) {
+    .header-bar {
+        font-size: 1.2rem;
+    }
+
     .name, .navbar, .role {
         grid-column: 1/3;
         text-align: center;
