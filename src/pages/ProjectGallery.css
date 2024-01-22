@@ -14,10 +14,6 @@
     padding: 0vh 15vw;
 }
 
-.project-carousel {
-    padding: 5vh 15vw;
-}
-
 .project-detail {
     font-size: 1.3rem;
     grid-row: 4/5;

@@ -1,6 +1,6 @@
 .about-grid {
     grid-template-columns: 40vw 60vw;
-    grid-template-rows: 20vh 80vh;
+    grid-template-rows: 20vh 40vh 40vh;
 }
 
 .brand-section {
@@ -16,8 +16,12 @@
     max-width: 100%;
 }
 
+.key-areas {
+    color: var(--colorOne);
+}
+
 .professional-role {
-    color: var(--colorTwo);
+    color: var(--colorThree);
 }
 
 .professional-summary {
@@ -26,8 +30,30 @@
     padding: 0vh 10vw 2vh 2vw;
 }
 
+.qualifications {
+    padding: 1vh 0;
+}
+
+.qualifications-image {
+    width: 5vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+}
+
+.qualifications-skills-list {
+    padding: 0;
+    list-style-type: none;
+}
+
 .skills {
     margin-bottom: 5px;
+    padding-right: 2vw;
+}
+
+.skills-image {
+    width: 5vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
 }
 
 @media (max-width: 1130px) {
