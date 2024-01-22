@@ -1,0 +1,69 @@
+.child-dev-skills {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    justify-content: center;
+    padding: 10vh 2vw;
+}
+
+.skills {
+    margin-bottom: 5px;
+    padding-right: 2vw;
+}
+
+.skills-subheading {
+    color: var(--colorTwo);
+    display: flex;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+.skills-image {
+    width: 5vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: 20vh 50vh 30vh;
+}
+
+.table-div {
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.table-entry {
+    background-color: var(--colorFive) !important;
+    color: var(--colorSix) !important;
+}
+
+.table-headings {
+    background-color: var(--colorThree) !important;
+    color: var(--colorSix) !important;
+    position: sticky !important;
+    top: 0; 
+}
+
+.transferable-skills {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-bottom: 5px;
+    padding-left: 2vw;
+}
+
+.transferable-skills-list, .web-dev-skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-row: 2/3;
+}
+
+@media (max-width: 1130px) {
+    .skills-grid {
+        display: grid;
+        grid-template-columns: 60vw 40vw;
+        grid-template-rows: 20vh 50vh 30vh;
+    }
+}

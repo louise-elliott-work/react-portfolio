@@ -1,17 +1,18 @@
 /* Brand colors */
 :root {
-    --colorOne: #F5D4C3;
-    --colorTwo: #E09789;
-    --colorThree: #E9F1EF;
-    --colorFour: #C8DBD7;
-    --colorFive: #F6EFE7;
-    --colorSix: #3C5556;
+    --colorOne: #FB6793;
+    --colorTwo: #008195;
+    --colorThree: #03AAC2;
+    --colorFour: #FF97A5;
+    --colorFive: #E9F1EF;
+    --colorSix: #012638;
 }
 
 /* Other styling for consistency across app */
 
 * {
     background-color: var(--colorFive);
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
     justify-content: center;
     list-style: none;
     overflow-wrap: break-word;
@@ -27,6 +28,8 @@
     border-bottom: solid 10px var(--colorOne);
     color: var(--colorFive);
     font-size: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .heading-container {
@@ -39,17 +42,26 @@
     padding: 5vh 10vw 5vh 10vw;
 }
 
+.subheading {
+    color: var(--colorTwo);
+    font-size: 1.5rem;
+    padding-bottom: 5vh;
+}
+
 .text {
     color: var(--colorSix);
     font-size: 1.3rem;
 }
-
 
 @media (max-width: 1130px) {
     .heading {
         font-size: 1.4rem;
     }
     
+    .subheading {
+        font-size: 1.2rem;
+    }
+
     .text {
         font-size: 1rem;
     }

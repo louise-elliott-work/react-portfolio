@@ -21,6 +21,17 @@ function NavBar() {
 
             <li className="nav-item">
                 <NavLink
+                    to="skills"
+                    className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                    }
+                >
+                Skills
+                </NavLink>
+            </li>
+
+            <li className="nav-item">
+                <NavLink
                     to="projects"
                     className={({ isActive }) =>
                     isActive ? "nav-link active" : "nav-link"
