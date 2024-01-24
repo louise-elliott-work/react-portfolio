@@ -10,7 +10,7 @@ function About() {
             </section>
             <section className="brand-section">
                 <strong className="brand-statement">
-                    <span className="professional-role"> Front End Web Developer </span> <span className="text"> with a background in <span className="key-areas"> child development </span> , <span className="key-areas"> education </span> and <span className="key-areas"> NGOs. </span></span>
+                    <span className="professional-role">Front End Web Developer </span> <span className="text">with a background in <span className="key-areas">child development</span>, <span className="key-areas">education </span>and <span className="key-areas">NGOs</span>.</span>
                 </strong>
                 <img className="headshot" src="/profile-photo-square-color.jpg" alt="The image shows a headshot of Louise Elliott"></img>
             </section>
@@ -27,8 +27,8 @@ function About() {
                 <strong><span className="subheading">Qualifications</span></strong>
                 <ul className="qualifications-skills-list">
                     <li className="qualifications"> <img className="qualifications-image" src="/edx-logo.jpeg" /> <span className="qualifications-text text"> Front End Web Development Boot Camp Certificate </span> </li>
-                    <li className="qualifications"> <img className="qualifications-image" src="/university-of-brighton-logo.jpeg" /> <span className="qualifications-text text"> Post Graduate Certificate in Education - Languages </span> </li>
-                    <li className="qualifications"> <img className="qualifications-image" src="/university-of-bath-logo.jpeg" /> <span className="qualifications-text text"> First Class BSc(Hons) - International Management and Spanish </span> </li>
+                    <li className="qualifications"> <img className="qualifications-image" src="/university-of-brighton-logo.jpeg" /> <span className="qualifications-text text"> Post Graduate Certificate in Education — Languages </span> </li>
+                    <li className="qualifications"> <img className="qualifications-image" src="/university-of-bath-logo.jpeg" /> <span className="qualifications-text text"> First Class BSc (Hons) — International Management and Spanish </span> </li>
                 </ul>
             </section>      
         </div>
