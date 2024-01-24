@@ -13,7 +13,7 @@ function Skills() {
         <section className="transferable-skills">
             <strong><span className="skills-subheading subheading">Top transferable skills</span></strong>
             <ul className="transferable-skills-list">
-                <li className="skills"> <span className="skills-text text"> Active Listening </span> </li>
+                <li className="skills"> <span className="skills-text text"> Active listening </span> </li>
                 <li className="skills"> <span className="skills-text text"> Written and verbal communication </span> </li>
                 <li className="skills"> <span className="skills-text text"> Education </span> </li>
                 <li className="skills"> <span className="skills-text text"> Front-end development </span> </li>
