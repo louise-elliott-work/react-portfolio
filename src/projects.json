@@ -1,24 +1,23 @@
 [
     {
         "id": 1,
+        "title": "Culinary Compass",
+        "summary": "You know that feeling, when you want to go out to eat somewhere different, somewhere special, but you can't decide where?! With so much information these days, it can be hard to make a simple choice, so we end up going back to the same restaurants time and time again. Culinary Compass allows you to search high-end restaurants, filtering either by those nearby or in a certain country, by their awards, and even gives you the chance to be told where to go for when you are feeling spontaneous!",
+        "app": "https://culinary-compasses.netlify.app/",
+        "github": "https://github.com/Chae-Lee/Culinary_Compass",
+        "media": "/culinary-compass-screenshot.png"
+    },    {
+        "id": 2,
         "title": "PupVenture",
-        "summary": " This app provides users with a list of dog-friendly destinations. The user inputs the date and a location and will see nearby destinations and the weather forecast for that date. Additionally, the user can save locations as favourites.",
+        "summary": "Stuck for places to take your pup for a well-deserved run-around? PupVenture provides you with a list of dog-friendly destinations near your chosen locations. You can input a date and location and you will be given nearby destinations and the weather forecast for that date. If you like one of the destinations you visit, you can then save it as a favourite!",
         "app": "https://ibalan92.github.io/dog-friendly-locations/",
         "github": "https://github.com/ibalan92/dog-friendly-locations",
         "media": "/pupventure-screenshot.png"
     },
     {
-        "id": 2,
-        "title": "Team Profile Generator",
-        "summary": "This command-line application generates a profile of software development team members based on user input. The user input is gathered using Inquirer and objects are created for each team member using the relevant classes.",
-        "app": "n/a - command-line application",
-        "github": "https://github.com/louise-elliott-work/team-profile-generator",
-        "media": "/team-profile-generator-screenshot.png"
-    },
-    {
         "id": 3,
         "title": "README Generator",
-        "summary": "This command-line application generates a professional README file based on the user's input.",
+        "summary": "Are you a developer, tired of writing READMEs out for each project? This command-line application generates a professional README file based on your input, saving time and ensuring formatting standards are followed consistently.",
         "app": "n/a - command-line application",
         "github": "https://github.com/louise-elliott-work/readme-generator",
         "media": "/README-generator-screenshot.png"
@@ -26,25 +25,9 @@
     {
         "id": 4,
         "title": "Weather Dashboard",
-        "summary": "This weather dashboard runs in the browser to display user-defined data retrieved from Open Weather Map (https://openweathermap.org/) and day.js.  Local storage is used for favourites to persist when the page is reloaded.",
+        "summary": "Thinking of taking a trip but worried about the weather? This weather dashboard allows you to check the 5-day weather forecast for a number of locations, taking its data from Open Weather Map (https://openweathermap.org/).  Local storage is used for favourites to persist when the page is reloaded, so you can easily check the same locations at a later date!",
         "app": "https://louise-elliott-work.github.io/weather-dashboard",
         "github": "https://github.com/louise-elliott-work/weather-dashboard",
         "media": "/weather-dashboard-screenshot.png"
-    },
-    {
-        "id": 5,
-        "title": "Work Day Scheduler",
-        "summary": "This calendar application allows a user to save events for each hour of the day.  The current day and date is taken from day.js and is displayed in a user-friendly format.",
-        "app": "https://louise-elliott-work.github.io/work-day-scheduler",
-        "github": "https://github.com/louise-elliott-work/work-day-scheduler",
-        "media": "/work-day-scheduler-screenshot.png"
-    },
-    {
-        "id": 6,
-        "title": "Code Quiz",
-        "summary": "This app provides a multiple-choice quiz on the topic of coding that runs in the browser, powered by JavaScript.",
-        "app": "https://louise-elliott-work.github.io/code-quiz",
-        "github": "https://github.com/louise-elliott-work/code-quiz",
-        "media": "/code-quiz-screenshot.png"
     }
 ]
